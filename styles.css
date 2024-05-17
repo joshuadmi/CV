@@ -1,0 +1,536 @@
+body {
+  font-size: 1.3em;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  padding: 0;
+  background-color: aquamarine;
+  background-image: url("img/motherboard.jpeg");
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+header {
+  position: fixed;
+  top: 0%;
+  background-color: #b8b3b3;
+  text-align: left;
+  margin: auto;
+  width: 960px;
+  height: 210px; 
+  padding: 20px;
+  padding-bottom: 0;
+  box-shadow: 20px 20px 20px rgb(114 114 114 / 91.7%);
+  z-index: 1500;
+}
+
+.nom {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+  position: relative;
+  top: -30px;
+}
+
+.object {
+  position: relative;
+  top: -50px;
+  left: 33%;
+  font-size: 1.1em;
+}
+
+.photo-container img {
+  /* taille de la photo de profil */
+
+  width: 150px;
+  height: 150px;
+}
+.intro {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+.outer {
+  background: linear-gradient(45deg, gold, fuchsia);
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.icones {
+  font-family: Helvetica, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-size: 65%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 180px);
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.about,
+.experience,
+.formation,
+.centres-interet {
+  font-family: Verdana, sans-serif;
+  position: relative;
+  width: auto;
+  top: 260px;
+  padding: 30px;
+  box-shadow: 10px 10px 10px rgb(114 114 114 / 91.7%);
+  margin-bottom: 30px;
+  background-color: #fff;
+  color: black;
+}
+
+caption {
+  font-size: 1.17em;
+  margin: 1em;
+  font-weight: bold;
+  text-align: left;
+}
+
+.container ul {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  list-style: none;
+  padding: 30px;
+}
+
+.custom-item-portugais {
+  padding-left: 40px;
+  background-image: url("img/brazil_flag.png"); /* Ajoute de l'espace pour l'image */
+  background-repeat: no-repeat; /* Chemin de votre image */
+
+  /* Empêche la répétition de l'image */
+
+  background-position: left center;
+
+  /* Positionne l'image à gauche et centrée verticalement */
+
+  background-size: 22px 22px;
+
+  /* Taille de l'image */
+
+  margin-bottom: 10px;
+}
+
+.custom-item-espagnol {
+  padding-left: 40px;
+
+  /* Ajoute de l'espace pour l'image */
+
+  background-image: url("img/spain_flag.png");
+
+  /* Chemin de votre image */
+
+  background-repeat: no-repeat;
+
+  /* Empêche la répétition de l'image */
+
+  background-position: left center;
+
+  /* Positionne l'image à gauche et centrée verticalement */
+
+  background-size: 22px 22px;
+
+  /* Taille de l'image */
+
+  margin-bottom: 10px;
+}
+
+.custom-item-anglais {
+  padding-left: 40px;
+
+  /* Ajoute de l'espace pour l'image */
+
+  background-image: url("img/uk_flag.png");
+
+  /* Chemin de votre image */
+
+  background-repeat: no-repeat;
+
+  /* Empêche la répétition de l'image */
+
+  background-position: left center;
+
+  /* Positionne l'image à gauche et centrée verticalement */
+
+  background-size: 22px 22px;
+
+  /* Taille de l'image */
+
+  margin-bottom: 10px;
+}
+
+.custom-item-italien {
+  padding-left: 40px;
+
+  /* Ajoute de l'espace pour l'image */
+
+  background-image: url("img/italy_flag.png");
+
+  /* Chemin de votre image */
+
+  background-repeat: no-repeat;
+
+  /* Empêche la répétition de l'image */
+
+  background-position: left center;
+
+  /* Positionne l'image à gauche et centrée verticalement */
+
+  background-size: 22px 22px;
+
+  /* Taille de l'image */
+}
+
+.office {
+  padding-left: 40px;
+
+  /* Ajoute de l'espace pour l'image */
+
+  background-image: url("img/office.png");
+
+  /* Chemin de votre image */
+
+  background-repeat: no-repeat;
+
+  /* Empêche la répétition de l'image */
+
+  background-position: left center;
+
+  /* Positionne l'image à gauche et centrée verticalement */
+
+  background-size: 27px 27px;
+
+  /* Taille de l'image */
+
+  margin-bottom: 10px;
+}
+
+.linux {
+  padding-left: 40px;
+
+  /* Ajoute de l'espace pour l'image */
+
+  background-image: url("img/linux.png");
+
+  /* Chemin de votre image */
+
+  background-repeat: no-repeat;
+
+  /* Empêche la répétition de l'image */
+
+  background-position: left center;
+
+  /* Positionne l'image à gauche et centrée verticalement */
+
+  background-size: 27px 27px;
+
+  /* Taille de l'image */
+
+  margin-bottom: 10px;
+}
+
+.html {
+  padding-left: 40px;
+
+  /* Ajoute de l'espace pour l'image */
+
+  background-image: url("img/html.jpg");
+
+  /* Chemin de votre image */
+
+  background-repeat: no-repeat;
+
+  /* Empêche la répétition de l'image */
+
+  background-position: left center;
+
+  /* Positionne l'image à gauche et centrée verticalement */
+
+  background-size: 27px 27px;
+
+  /* Taille de l'image */
+
+  margin-bottom: 10px;
+}
+
+.photoshop {
+  padding-left: 40px;
+
+  /* Ajoute de l'espace pour l'image */
+
+  background-image: url("img/photoshop.png");
+
+  /* Chemin de votre image */
+
+  background-repeat: no-repeat;
+
+  /* Empêche la répétition de l'image */
+
+  background-position: left center;
+
+  /* Positionne l'image à gauche et centrée verticalement */
+
+  background-size: 27px 27px;
+
+  /* Taille de l'image */
+
+  margin-bottom: 10px;
+}
+
+.mini {
+  position: absolute;
+
+  /* Définit la position  pour la miniature */
+
+  /* Positionne la miniature juste en dessous du lien */
+
+  display: none;
+
+  /* Masque la miniature par défaut */
+
+  z-index: 500;
+}
+
+.lien-apercu:hover .mini {
+  display: block;
+}
+
+.vmware {
+  padding-left: 40px;
+
+  /* Ajoute de l'espace pour l'image */
+
+  background-image: url("img/vmware.png");
+
+  /* Chemin de votre image */
+
+  background-repeat: no-repeat;
+
+  /* Empêche la répétition de l'image */
+
+  background-position: left center;
+
+  /* Positionne l'image à gauche et centrée verticalement */
+
+  background-size: 27px 27px;
+
+  /* Taille de l'image */
+
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td,
+th {
+  border: 1px solid black;
+}
+
+.centres-interet ul {
+  list-style: none;
+}
+
+#list-item-dessin {
+  padding-left: 40px;
+
+  /* Ajoute de l'espace pour l'image */
+
+  background-image: url("img/dessin.png");
+
+  /* Chemin de votre image */
+
+  background-repeat: no-repeat;
+
+  /* Empêche la répétition de l'image */
+
+  background-position: left center;
+
+  /* Positionne l'image à gauche et centrée verticalement */
+
+  background-size: 25px 25px;
+
+  /* Taille de l'image */
+
+  margin-bottom: 10px;
+
+  width: 33%;
+}
+
+.surf {
+  padding-left: 40px;
+
+  /* Ajoute de l'espace pour l'image */
+
+  background-image: url("img/surf.png");
+
+  /* Chemin de votre image */
+
+  background-repeat: no-repeat;
+
+  /* Empêche la répétition de l'image */
+
+  background-position: left center;
+
+  /* Positionne l'image à gauche et centrée verticalement */
+
+  background-size: 25px 25px;
+
+  /* Taille de l'image */
+
+  margin-bottom: 10px;
+}
+
+.ecriture {
+  padding-left: 40px;
+
+  /* Ajoute de l'espace pour l'image */
+
+  background-image: url("img/ecriture.png");
+
+  /* Chemin de votre image */
+
+  background-repeat: no-repeat;
+
+  /* Empêche la répétition de l'image */
+
+  background-position: left center;
+
+  /* Positionne l'image à gauche et centrée verticalement */
+
+  background-size: 25px 25px;
+
+  /* Taille de l'image */
+
+  margin-bottom: 10px;
+}
+
+.snes {
+  padding-left: 40px;
+
+  /* Ajoute de l'espace pour l'image */
+
+  background-image: url("img/snes.png");
+
+  /* Chemin de votre image */
+
+  background-repeat: no-repeat;
+
+  /* Empêche la répétition de l'image */
+
+  background-position: left center;
+
+  /* Positionne l'image à gauche et centrée verticalement */
+
+  background-size: 25px 25px;
+
+  /* Taille de l'image */
+
+  width: fit-content;
+
+  /* limite le survol au mot et à l'icone */
+}
+
+.slider-cont {
+  /* display: none; */
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  right: 200px;
+  bottom: -50px;
+  max-width: 400px;
+  height: 250px;
+  margin: 80px auto;
+  overflow: hidden;
+  border: 1px solid;
+  align-items: center;
+  z-index: 1100;
+}
+
+/* .dessin:hover > .slider-cont {
+  display: block;
+} */
+
+
+#list-item-dessin:hover > .slider-cont {
+  visibility: visible;
+  opacity: 1;
+  width: fit-content;
+}
+
+.snes:hover > .slider-cont {
+  visibility: visible;
+  opacity: 1;
+}
+
+.slider {
+  display: flex;
+  animation: slider-1 8s infinite ease-in-out;
+}
+
+.slider-cont img {
+  flex-shrink: 0;
+  width: 400px;
+  height: 250px;
+}
+
+@keyframes slider-1 {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+
+  25%,
+  45% {
+    transform: translateX(-100%);
+  }
+
+  50%,
+  70% {
+    transform: translateX(-200%);
+  }
+
+  75%,
+  95% {
+    transform: translateX(-300%);
+  }
+
+  100% {
+    transform: translateX(-400%);
+  }
+}
+
+/* zone commentaire */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+  height: auto;
+  bottom: -260px;
+  background-color: #b8b3b3;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  font-size: medium;
+  padding: 20px;
+  box-shadow: 20px 20px 20px rgb(114 114 114 / 91.7%);
+  z-index: 1000;
+}
+
+.thermo {
+  width: 2em;
+  border-radius: 20%;
+  background-position: right;
+}
+
+textarea {
+  width: 700px;
+  font-size: larger;
+}
