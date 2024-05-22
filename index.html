@@ -12,6 +12,12 @@
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poetsen+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -51,9 +57,9 @@
         <section class="about">
             <h2>Objectif</h2>
             <p class="intro">Actuellement dans une démarche de reconversion professionnelle, je recherche un contrat de
-                professionnalisation pour la rentrée de septembre dans le cadre de la formation de niveau BAC +2 "Technicien Supérieur Systèmes et Réseaux", proposée par le GRETA de Bayonne.
-                Cela serait l'opportunité pour moi d'entamer ma démarche de reconversion tout en étant inséré dans le
-                marché.</p>
+                professionnalisation pour la rentrée de septembre 2024. La formation de niveau BAC +2 "Technicien Supérieur Systèmes et Réseaux" est proposée par le GRETA de Bayonne. <br>
+                Cela sera l'occasion d'entamer ma démarche de reconversion tout en étant inséré dans le
+                domaine.</p>
 
             <div class="container">
                 <h3>Langues</h3>
@@ -117,19 +123,26 @@
                 HTML5, CSS, Photoshop, Linux. </p>
             <h3>Certificats Openclassrooms</h3>
             <table>
+                <thead>
+                    <tr>
+                        <th>Cours suivis</th>
+                        <th>Date</th>
+                        <th>Certificat</th>
+                    </tr>
+                </thead>
                 <tr>
                     <td>Créez votre site web avec HTML et CSS3</td>
                     <td>avril 2024</td>
-                    <td>Certificat</td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>Découvrez les métiers de développeur</td>
-                    <td>mars 2024</td>
+                    <td rowspan="2">mars 2024</td>
                     <td>Certificat</td>
                 </tr>
                 <tr>
                     <td>Découvrez le métiers de technicien informatique</td>
-                    <td>mars 2024</td>
+                    <!-- <td>mars 2024</td> -->
                     <td>Certificat</td>
                 </tr>
                 <tr>
@@ -148,8 +161,7 @@
 
 
             <h3>Sécurité Numérique</h3>
-            <p>SECNUM - ANSI (juin 2023)</p>
-            <p>Certificat</p>
+            <p>SECNUM - ANSI (juin 2023) - Certificat</p>
             <h3>Master II MEEF 1er degré</h3>
             <p>INSPE CRETEIL (2018 - 2020)</p>
             <h3>Maitrise en Philosophie</h3>
@@ -197,16 +209,17 @@
 
     <footer>
         <form method="get" action="">
+            <p>
+                <label for="commentaires">Vos commentaires à chaud</label>
+                <textarea name="comments" id="comments" autofocus></textarea>
+                <img class="thermo" src="img/thermo.png" alt="themometre">
+            </p>
+            
 
-            <img class="thermo" src="img/thermo.png" alt="themometre">
-            <textarea name="comments" id="comments"></textarea>
-
-
-            <input type="submit" value="Copier le texte">
+            <input type="submit" name="commentaires" value="Copier le texte" placeholder="Saisissez quelques mots ">
             <script>
                 'use strict'
                 const textArea =
-
                     navigator.clipboard.readText(textArea)
                 navigator.clipboard.writeText('')
 
