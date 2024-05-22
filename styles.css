@@ -71,7 +71,7 @@ header {
 .experience,
 .formation,
 .centres-interet {
-  font-family: Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   position: relative;
   width: auto;
   top: 260px;
@@ -322,6 +322,8 @@ caption {
   margin-bottom: 10px;
 }
 
+/* Tableau  */
+
 table {
   border-collapse: collapse;
   margin: auto;
@@ -330,6 +332,16 @@ table {
 td,
 th {
   border: 1px solid black;
+  padding: 10px;
+}
+
+th {
+  background-color: #7451eb;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: "Inter", sans-serif;
+  font-size: 1.3em;
+  /* text-shadow: 1px 1px 1px #000000; */
 }
 
 .centres-interet ul {
@@ -533,4 +545,33 @@ footer {
 textarea {
   width: 700px;
   font-size: larger;
+}
+
+@media screen and (max-width: 996px) {
+header {
+  width: 95%;
+  overflow: auto;
+
+}
+body {
+  font-size: 1.3em;
+  color: rgb(162, 3, 144);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  border-width: 40px;
+  position: center;
+}
+.container ul,
+.about,
+.experience {
+  min-width: 400px;
+  border-width: 40px;
+  overflow: auto;
+}
+
+.object {
+  left: 40%;
+}
 }
